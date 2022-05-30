@@ -43,6 +43,7 @@ Gas Price Analysis project use Python, ETL, Web Scraping, and Machine Learning M
   - <img src='Resources/images/interest_rate(%).png' width=600  height=300>
   - <img src='Resources/images/inflation.png' width=600  height=300>
   - <img src='Resources/images/working_population.png' width=600  height=300>
+  - <img src='Resources/images/import_export_graph.png' width=600  height=300>
 
 - Questions hope to answer with the data
   - What is the average natural gas price now and future.
