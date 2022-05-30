@@ -39,12 +39,12 @@ Gas Price Analysis project use Python, ETL, Web Scraping, and Machine Learning M
  
 - Interesting Factors in Graphs
 
- <img src='Resources/images/tableau_trend.PNG' width=600 height=300>
- <img src='Resources/images/stock_market_to_GDP(%).png' width=600 height=300>
- <img src='Resources/images/interest_rate(%).png' width=600 height=300>
- <img src='Resources/images/inflation.png' width=600 height=300>
- <img src='Resources/images/working_population.png' width=600 height=300>
- <img src='Resources/images/import_export_graph.png' width=600 height=300>
+ <img src='Web Scraping/images/tableau_trend.PNG' width=600 height=300>
+ <img src='Web Scraping/images/stock_market_to_GDP(%).png' width=600 height=300>
+ <img src='Web Scraping/images/interest_rate(%).png' width=600 height=300>
+ <img src='Web Scraping/images/inflation.png' width=600 height=300>
+ <img src='Web Scraping/images/working_population.png' width=600 height=300>
+ <img src='Web Scraping/images/import_export_graph.png' width=600 height=300>
 
 - Questions hope to answer with the data
   - What is the average natural gas price now and future.
@@ -166,7 +166,9 @@ MRM4:
 
 ## Web to show case
 - Main page:
-  <img src='Resources/images/webscrip.png' width=900 height=500>
+
+  <img src='Web Scraping/images/Screenshot.png' width=900 height=500>
+  <img src='Web Scraping/images/Screenshot2.png' width=900 height=500>
   
 - Webscriping details:
   - MongoDB database(storage data)
