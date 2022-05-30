@@ -39,12 +39,12 @@ Gas Price Analysis project use Python, ETL, Web Scraping, and Machine Learning M
  
 - Interesting Factors in Graphs
 
- <img src='Resources/images/tableau_trend.PNG' width=600  height=300>
- <img src='Resources/images/stock_market_to_GDP(%).png' width=600  height=300>
- <img src='Resources/images/interest_rate(%).png' width=600  height=300>
- <img src='Resources/images/inflation.png' width=600  height=300>
- <img src='Resources/images/working_population.png' width=600  height=300>
- <img src='Resources/images/import_export_graph.png' width=600  height=300>
+ <img src='Resources/images/tableau_trend.PNG' width=600 height=300>
+ <img src='Resources/images/stock_market_to_GDP(%).png' width=600 height=300>
+ <img src='Resources/images/interest_rate(%).png' width=600 height=300>
+ <img src='Resources/images/inflation.png' width=600 height=300>
+ <img src='Resources/images/working_population.png' width=600 height=300>
+ <img src='Resources/images/import_export_graph.png' width=600 height=300>
 
 - Questions hope to answer with the data
   - What is the average natural gas price now and future.
