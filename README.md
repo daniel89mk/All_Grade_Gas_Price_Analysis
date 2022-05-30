@@ -172,8 +172,8 @@ MRM4:
 ## Web to show case
 - Main page:
 
-  <img src='Web Scraping/images/Screenshot.png'>
-  <img src='Web Scraping/images/Screenshot2.png'>
+  <img src='Images/Screenshot.png'>
+  <img src='Images/Screenshot2.png'>
   
 - Webscriping details:
   - MongoDB database(storage data)
