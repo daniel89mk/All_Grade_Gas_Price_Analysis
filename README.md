@@ -39,12 +39,12 @@ Gas Price Analysis project use Python, ETL, Web Scraping, and Machine Learning M
  
 - Interesting Factors in Graphs
 
- ![tableau_trend](Web Scraping/images/tableau_trend.PNG)
- ![import_export_graph](Web Scraping/images/import_export_graph.PNG)
- ![inflation](Web Scraping/images/inflation.PNG)
- ![interest_rate(%)](Web Scraping/images/interest_rate(%).PNG)
- ![stock_market_to_GDP(%)](Web Scraping/images/stock_market_to_GDP(%).PNG)
- ![working_population](Web Scraping/images/working_population.PNG)
+![tableau_trend](Web Scraping/images/tableau_trend.PNG)
+![import_export_graph](Web Scraping/images/import_export_graph.PNG)
+![inflation](Web Scraping/images/inflation.PNG)
+![interest_rate(%)](Web Scraping/images/interest_rate(%).PNG)
+![stock_market_to_GDP(%)](Web Scraping/images/stock_market_to_GDP(%).PNG)
+![working_population](Web Scraping/images/working_population.PNG)
 
 - Questions hope to answer with the data
   - What is the average natural gas price now and future.
