@@ -40,10 +40,15 @@ Gas Price Analysis project use Python, ETL, Web Scraping, and Machine Learning M
 - Interesting Factors in Graphs
 
 ![tableau_trend](Web Scraping/images/tableau_trend.png)
+
 ![import_export_graph](Web Scraping/images/import_export_graph.png)
+
 ![inflation](Web Scraping/images/inflation.png)
+
 ![interest_rate(%)](Web Scraping/images/interest_rate(%).png)
+
 ![stock_market_to_GDP(%)](Web Scraping/images/stock_market_to_GDP(%).png)
+
 ![working_population](Web Scraping/images/working_population.png)
 
 - Questions hope to answer with the data
