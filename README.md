@@ -45,9 +45,9 @@ Gas Price Analysis project use Python, ETL, Web Scraping, and Machine Learning M
 
 ![inflation](Images/inflation.png)
 
-![interest_rate(%)](Iimages/interest_rate(%).png)
+![interest_rate](Iimages/interest_rate(%).png)
 
-![stock_market_to_GDP(%)](Images/stock_market_to_GDP(%).png)
+![stock_market_to_GDP](Images/stock_market_to_GDP(%).png)
 
 ![working_population](Images/working_population.png)
 
