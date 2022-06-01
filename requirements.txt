@@ -54,7 +54,6 @@ pyOpenSSL==22.0.0
 PySocks==1.7.1
 python-dateutil==2.8.2
 pytz==2021.3
-pywin32==303
 PyYAML==6.0
 pyzmq==22.3.0
 requests==2.27.1
@@ -78,3 +77,4 @@ webencodings==0.5.1
 Werkzeug==2.0.3
 whitenoise==6.1.0
 wsproto==1.1.0
+
