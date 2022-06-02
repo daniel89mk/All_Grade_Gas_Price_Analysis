@@ -29,7 +29,7 @@
       }
     </style>
     </div>
-  </body>
+  
     <div class="container">
       <!-- Add Jumbotron to Header -->
       <div style="background-color:grey;" class="jumbotron text-center">
@@ -79,151 +79,287 @@
 
         
       <div class="col-md-12">
-          <div class="row">
-            <div class="page-header" >
-              <h1 class="text-center" style="color:white;font-weight:bold">Background</h1>
-                <h2 style="color:white; text-align: center">What is Natural Gas?</h2>
-            </div>
+        <div class="row">
+          <div class="page-header" >
+            <h1 class="text-center" style="color:white;font-weight:bold">Background</h1>
+              <h2 style="color:white; text-align: center">What is Natural Gas?</h2>
           </div>
-         
-          <div class="col-md-7">
-            <img src="https://www.eia.gov/energyexplained/natural-gas/images/hydrofracturing_lg.jpg" style="width:600px;height:400px;">
+        </div>
+
+        <div class="col-md-12">
+          <p style="font-size:140%; color:white;">Natural gas is a fossil energy source that formed deep beneath the earth's surface. Natural gas contains many different compounds. The largest component of natural gas is methane, a compound with one carbon atom and four hydrogen atoms (CH4). Natural gas also contains smaller amounts of natural gas liquids (NGLs, which are also hydrocarbon gas liquids), and nonhydrocarbon gases, such as carbon dioxide and water vapor. We use natural gas as a fuel and to make materials and chemicals. </p>
           </div>
 
-          <div class="col-md-5">
-            <div class="col-md-12">
-              <p style="font-size:140%; color:white;">Natural gas is a fossil energy source that formed deep beneath the earth's surface. Natural gas contains many different compounds. The largest component of natural gas is methane, a compound with one carbon atom and four hydrogen atoms (CH4). Natural gas also contains smaller amounts of natural gas liquids (NGLs, which are also hydrocarbon gas liquids), and nonhydrocarbon gases, such as carbon dioxide and water vapor. We use natural gas as a fuel and to make materials and chemicals.</p>
-                <a class="btn btn-Dark" href="https://www.eia.gov/energyexplained/natural-gas/"style="font-size:120%; color:white;">More details: CLICK HERE</a>
+        <div class="col-md-7">
+          <img src="https://www.eia.gov/energyexplained/natural-gas/images/hydrofracturing_lg.jpg" style="width:600px;height:400px;">
+        </div>
+
+          <!-- <div class="col-md-5">
+            <div class="col-md-12">    -->
+
+        <div class="col-md-5">
+          <div class="center">
+            <style>
+            .center {
+              /* border: 5px solid #FFFF00; */
+              padding: 50px 0;
+              } </style>
+            <p style="font-size:140%; color:white;">In some places, natural gas moved into large cracks and spaces between layers of overlying rock. In other places, natural gas occurs in the tiny pores (spaces) within some formations of shale, sandstone, and other types of sedimentary rock. Natural gas also occurs with deposits of crude oil, and its deposits are found on land, and some are offshore and deep under the ocean floor.</p>
+            <a class="btn btn-Dark" href="https://www.eia.gov/energyexplained/natural-gas/"style="font-size:100%; color:white;">If you want more details: CLICK HERE</a>
+          </div>
+        </div>
+ 
+        
+
+
+        <div class="col-md-12">
+          <div class="row">
+            <div class="page-header">
+              <h1 class="text-center" style="color:white;font-weight:bold">Our Datasets</h1>                 
             </div>
           </div>
-          
-          <div class="col-md-12">
-            <div class="row">
-              <div class="page-header">
-                <h1 class="text-center" style="color:white;font-weight:bold">Our Dataset</h1>
-                  
-              </div>
-            </div>
            
-            <div class="col-md-12">
-              <h2 style="color:white; text-align: center">Summary for our variables</h2>
-              <center><img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Resources/images/ERD.png" style="width:900px;height:700px;"></center>
-            </div>
+          <div class="col-md-12">
+            <h2 style="color:white; text-align: center">ERD</h2>
+            <h2 style="color:white; text-align: center">Relationship Diagram between our datasets</h2>
+            <center><img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Resources/images/ERD.png" style="width:800px;height:480px;"></center>
+          </div>
             
 
 
-            <div class="col-md-12">
-              <h2 style="margin-top: 90px;color:white; text-align: center">Summary for our variables</h2>
-              <center><img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Resources/images/var_table.PNG" style="width:900px;height:700px;"></center>
-            </div>
-  
-           
-
+          <!-- margin-top: 40px; -->
           <div class="col-md-12">
-            <h3 style="font-size:140%; color:white; text-align: center; font-weight:bold">Original Factors from Research</h3>
-            <center><img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Resources/images/var_summary_table1.PNG" class = "center"style="width:700px;height:400px;"></center>
-          </div> 
-
-          <div class="col-md-12">
-            <h3 style="font-size:140%; color:white; text-align: center; font-weight:bold">More Interesting Factors </h3>
-            <center><img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Resources/images/addition_var_summary_table.PNG" class = "center"style="width:700px;height:200px;"></center>
-          </div> 
-
-          <div class="col-md-12">
-            <h3 style="font-size:140%; color:white; text-align: center; font-weight:bold">More Factors from Consumer Data</h3>
-            <center><img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Resources/images/consumer_var_summary_table.PNG" class = "center"style="width:700px;height:300px;"></center>
-          </div> 
-
-          <div class="col-md-12">
-            <h3 style="font-size:140%; color:white; text-align: center; font-weight:bold">[ Multiple Regression Model 1 (MRM 1) ]</h3>
-            <ul>
-              <li style="font-size:120%; color:white;">Factors: year, production, consumption, import_price, export_price, total imports, total exports, gas_price by types(all_grades, regular, midgrade, premium, diesel), volumn(storage).</li>
-              <li style="font-size:120%; color:white;">Target: all_grades_price</li>
-            </ul>
-          </div> 
-          
-          <div class="col-md-12">
-            <h3 style="font-size:140%; color:white; text-align: center; font-weight:bold">[ Multiple Regression Model 2 (MRM 2) ]</h3>
-            <ul>
-              <li style="font-size:120%; color:white;">Add additional Factors: inflation, stock_to_GDP, working_population, interest_rate.</li>
-              <li style="font-size:120%; color:white;">Target: all_grades_price</li>
-            </ul>
-          </div> 
-
-          <div class="col-md-12">
-            <h3 style="font-size:140%; color:white; text-align: center; font-weight:bold">[ Multiple Regression Model 3 (MRM 3) ]</h3>
-            <ul>
-              <li style="font-size:120%; color:white;">Drop Dummies Factors: gas_price by types(all_grades, regular, midgrade, premium, diesel)</li>
-              <li style="font-size:120%; color:white;">Target: all_grades_price</li>
-            </ul>
-          </div> 
-
-          <div class="col-md-12">
-            <h3 style="font-size:140%; color:white; text-align: center; font-weight:bold">[ Multiple Regression Model 4 (MRM 4) ]</h3>
-            <ul>
-              <li style="font-size:120%; color:white;">Add Consumer_types without dummies Factors: all_consumers, consumer_types(commercial_, elecric_, industrial_, residential_, vehicle_consumers)</li>
-              <li style="font-size:120%; color:white;">Target: all_grades_price</li>
-            </ul>
+            <h2 style="color:white; text-align: center">Summary for our variables</h2>
+            <center><img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Resources/images/var_table.PNG" style="width:900px;height:700px;"></center>
           </div>
-          
-          <div class="col-md-12">
-            <h3 style="font-size:140%; color:white; text-align: center; font-weight:bold">Measure Metrics with our 4 models</h3>
-            <center><img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Resources/images/Model_evaluation.PNG" class = "center"style="width:700px;height:300px;"></center>
-            <ul>
-              <li style="font-size:120%; color:white;">R-sqaured Value: Residual squared score that efers to the coefficient of determination. It tells how well the unknoen samples will be predicted by model.(best is 1.0, can be negative)</li>
-              <li style="font-size:120%; color:white;">MAE: Mean absolute error; which is the average of absolute errors off all the data points in the given dataset.</li>
-              <li style="font-size:120%; color:white;">MSE: Mean squared error; which is the average of the squares of the errors of all the data points in the given dataset.</li>
-              <li style="font-size:120%; color:white;">MAE*: Median of all the errors in the given dataset. (it's robust to outliers)</li>
-              <li style="font-size:120%; color:white;">EVS: Explained variance score; measures how well out model can account for the variation in the dataset. (1.0 indicatesthat model is perfect.)</li>
-            </ul>
-          </div> 
-
-
-      <!-- Section for visualizations -->
-    <div class="col-md-12">
-      <div class="row">
-        <div class="page-header">
-          <h2 class="text-center" style="color:white;font-weight:bold">Interesting Factors in Graphs</h2>
-          <p style="color:white; text-align: center">Visualization using Tableau and Python</p>
         </div>
 
-        <!-- <div class="row">
-          <div class="col-md-8"> -->
 
-          <div class="col-md-6">
-            <h3 style="font-size:120%; color:white; text-align: center; font-weight:bold">Price of Import and Export ($/Gallon)</h3>
-            <img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Web%20Scraping/images/import_export_graph.png" class = "center" style="width:580px;height:400px;">
-          </div>
-            <!-- <div class="thumbnail"> -->
-          <div class="col-md-6">
-            <div class="col-md-12">
-              <h3 style="font-size:120%; color:white; text-align: center;font-weight:bold">Stock Market to GDP(%)</h3>
-              <img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Web%20Scraping/images/stock_market_to_GDP(%25).png" class="center" style="width:580px;height:400px;">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="page-header">
+              <h1 class="text-center" style="color:white;font-weight:bold">Interesting Factors in Graphs</h1>
             </div>
           </div>
 
           <div class="col-md-6">
-            <h3 style="font-size:120%; color:white; text-align: center; font-weight:bold">Inflation(%)</h3>
-            <img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Web%20Scraping/images/inflation.png" class = "center" style="width:580px;height:400px;">
+            <h2 style="font-size:140%; color:white; text-align: center;">Price of Import and Export ($/Gallon)</h2>
+            <img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Web%20Scraping/images/import_export_graph.png" class = "center" style="width:500px;height:400px;">
           </div>
-            <!-- <div class="thumbnail"> -->
+
           <div class="col-md-6">
             <div class="col-md-12">
-              <h3 style="font-size:120%; color:white; text-align: center;font-weight:bold">Interest Rate(%)</h3>
-              <img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Web%20Scraping/images/interest_rate(%25).png" class="center" style="width:580px;height:400px;">
+              <h2 style="font-size:140%; color:white; text-align: center;">Stock Market to GDP(%)</h2>
+              <img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Web%20Scraping/images/stock_market_to_GDP(%25).png" class="center" style="width:500px;height:400px;">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+           <h2 style="font-size:140%; color:white; text-align: center;">Inflation(%)</h2>
+            <img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Web%20Scraping/images/inflation.png" class = "center" style="width:500px;height:400px;">
+          </div> 
+
+          <div class="col-md-6">
+            <div class="col-md-12">
+              <h2 style="font-size:140%; color:white; text-align: center;">Interest Rate(%)</h2>
+              <img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Web%20Scraping/images/interest_rate(%25).png" class="center" style="width:500px;height:400px;">
             </div>
           </div>
           <div class="col-md-12">
-            <h3 style="font-size:120%; color:white; text-align: center; font-weight:bold">4 Factors with our Target Value (Price for All grades)</h3>
+            <h2 style="font-size:140%; color:white; text-align: center;">4 Factors with our Target Value (Price for All grades)</h2>
             <center><img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Web%20Scraping/images/tableau_trend.png" class = "center"></center>
+          </div> -->
+
+
+        <div class="col-md-12">
+          <div class="row">
+            <div class="page-header">
+              <h1 class="text-center" style="color:white;font-weight:bold">Marchine Learning Models</h1>
+            </div>
           </div>
 
           <div class="col-md-12">
-            <div class="page-header"></div>
-          
-            <h3 style="font-size:120%; color:white; text-align: center;">UC Berkeley Data Analytics Bootcamp * December 2021 - June 2022</h3>
+            <h2 style="color:white; text-align: center"><u>Supervised Learning</u></h2>
+
+
+          <div class="col-md-6">
+            <h3 style="color:white; text-align: center;"><mark>Multiple Linear Regression Model 1 (MRM1)</mark></h3>
+              <p3 style='font-size:120%'>
+                <ul style='color:white;'>
+                  <li>Factors: year, production, consumption, import_price, export_price, total imports, total exports, gas_price by types(all_grades, regular, midgrade, premium, diesel), volume(storage)</li>
+                  <li>Target variable: all_grades_price</li>
+                </ul>
+              </p3>
           </div>
+          <div class="col-md-6">
+            <div class="col-md-12">
+              <h3 style="color:white; text-align: center;"><mark>MRM 2</mark></h3>
+                <p3 style='font-size:120%'>
+                  <ul style='color:white;'>
+                    <li>Factors: Add additional Factors: inflation, stock_to_GDP, working_population, interest_rate</li>
+                    <li>Target variable: all_grades_price</li>
+                  </ul>
+                </p3>
+            </div>
+          </div>
+
+          <div class="col-md-7">
+            <h3 style="color:white;text-align: center;"><mark>MRM 3</mark></h3>
+              <p3 style='font-size:120%'>
+                <ul style='color:white;'>
+                  <li>Drop Dummies Factors: gas_price by types</li>
+                    <ul>      
+                      <li>all_grades, regular, midgrade, premium, diesel</li>
+                    </ul>
+                  <li>Target variable: all_grades_price</li>
+                </ul>
+              </p3>
+          </div>
+          <div class="col-md-5">
+            <div class="col-md-12">
+              <h3 style="color:white; text-align: center;"><mark>MRM 4</mark></h3>
+                <p3 style='font-size:120%'>
+                  <ul style='color:white'>
+                    <li>Add Consumer_types: consumer_types</li>
+                      <ul>      
+                        <li>commercial_, elecric_, industrial_, residential_, vehicle_consumers</li>
+                      </ul>
+                    <li>Drop dummies: all_consumers, and gas_types_by_price</li>
+                    <li>Target variable: all_grades_price</li>
+                  </ul>
+                </p3>
+            </div>
+          </div>
+        </div>
+ 
+
+     
+
+
+        <div class="col-md-12">
+          <h2 style="color:white; text-align: center"><u>Advanced Machine Learning</u></h2>
+            <h3 style="font-size:140%; color:white; text-align: center;"><mark>Artificial Neural Networks (ANN)</mark></h3>
+              <p3 style="font-size:120%; color:white;text-align: center">Computing systems inspired by the biological neural networks that constitute animal brains. An ANN is based on a collection of connected units or nodes called artificial neurons, which loosely model the neurons in a biological brain.</p3><br></br>
+        </div> 
+
+
+
+
+
+        <div class="col-md-12">
+          <h2 style="color:white; text-align: center"><u>Time Series Model</u></h2>
+           <h3 style="font-size:140%; color:white; text-align: center;"><mark>Autoregressive Integrated Moving Average (ARIMA) </mark></h3>
+            <p3 style="font-size:120%; color:white;text-align: center">Statistical analysis model that uses time series data to either better understand the data set or to predict future trends. </p3>
+            <center><img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Resources/images/pro_con.PNG" style="width:800px;height:600px;"></center>
+        </div> 
+
+
+
+      <div class="col-md-12">
+        <div class="row">
+          <div class="page-header" >
+            <h1 class="text-center" style="color:white;font-weight:bold">Performance of the Models</h1>
+
+          </div>
+        </div>   
+
+        <div class="col-md-12">
+          <h2 style="color:white; text-align: center">Pros and Cons for each model</h2>
+          <center><img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Resources/images/pro_con.PNG" style="width:800px;height:600px;"></center>
+        </div>
+
+      <div class="col-md-12">
+        <div class="row">
+          <div class="page-header" >
+            <h1 class="text-center" style="color:white;font-weight:bold">Results</h1>
+          </div>
+        </div>   
+  
+        <div class="col-md-12">
+          <h2 style="color:white; text-align: center">Model Evaluation</h2>
+            <h3 style="color:white; text-align: center"><u>Measure Metrics</u></h3>
+              <ul>
+                <li style="font-size:130%; color:white;">R-squared Score: Residual squared score that efers to the coefficient of determination. It tells how well the unknown samples will be predicted by model.(The best is 1.0, can be negative)</li>
+                <li style="font-size:130%; color:white;">MAE: Mean absolute error; which is the average of absolute errors off all the data points in the given dataset.</li>
+                <li style="font-size:130%; color:white;">MSE: Mean squared error; which is the average of the squares of the errors of all the data points in the given dataset.</li>
+                <li style="font-size:130%; color:white;">MAE*: Median of all the errors in the given dataset. (it's robust to outliers)</li>
+                <li style="font-size:130%; color:white;">EVS: Explained variance score; measures how well out model can account for the variation in the dataset. (1.0 indicatesthat model is perfect.)</li>
+              </ul>
+              <center><img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Resources/images/model_evaluation_new.PNG" style="width:700px;height:300px;"></center>
+
+              <p style="font-size:130%; color:white;"><br>the ARIMA model has the highest R-squared, which indicates the model is best fit for our gasoline datasets. Comparing the mean absolute error, MRM2 has the lowest score. ARIMA has the lowest mean squared error and median absolute error. However, MRM2 has the better explained variance score. Based on the Multiple linear regression model, we have four attemps. MRM2 and MRM3 have better results, but it has trade off. The OLS Regression results show the factors in the models are not significant.</br></p>
+              <center><img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Resources/images/arima_1.PNG" style="width:600px;height:400px;"></center>
+              <br></br>
+              <center><img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Resources/images/arima_result.PNG" style="width:700px;height:500px;"></center>
+        </div>
+
+        <div class="col-md-12">
+          <h2 style="color:white; text-align: center">The Best Model to predict future gas prices: ARIMA</h2>
+          <center><img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Resources/images/arima_prediction.PNG" style="width:700px;height:300px;"></center>  
+
+
+      <div class="col-md-12">
+        <div class="row">
+          <div class="page-header" >
+            <h1 class="text-center" style="color:white;font-weight:bold">Summary</h1>
+          </div>
+        </div> 
+
+    
+      <div class="col-md-12">
+        <div class="row">
+          <div class="page-header">
+            <h1 class="text-center" style="color:white;font-weight:bold">Resources</h1>
+          </div>
+        </div>
+      <div class="col-md-12">
+        <div class="row">
+          <p1 style="color:white">California_Regular_All_Formulations_Retail_Gasoline_Prices.csv</p1>
+          <ul>
+            <li style="color:white"><a href="https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=pet&s=emm_epmr_pte_sca_dpg&f=m">https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=pet&s=emm_epmr_pte_sca_dpg&f=m</a></li>
+          </ul>
+          <p1 style="color:white">gas_prices_by_type.csv</p1>
+          <ul>
+            <li style="color:white"><a href="https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_nus_m.htm">https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_nus_m.htm</a></li>
+          </ul>
+          <p1 style="color:white">Price_of_U.S._Natural_Gas_Exports.csv</p1>
+          <ul>
+            <li style="color:white"><a href="https://www.eia.gov/dnav/ng/hist/n9130us3m.htm">https://www.eia.gov/dnav/ng/hist/n9130us3m.htm</a></li>
+          </ul>
+          <p1 style="color:white">Price_of_U.S._Natural_Gas_Imports.csv</p1>
+          <ul>
+            <li style="color:white"><a href="https://www.eia.gov/dnav/ng/hist/n9100us3m.htm">https://www.eia.gov/dnav/ng/hist/n9100us3m.htm</a></li>
+          </ul> 
+          <p1 style="color:white">U.S._Natural_Gas_Exports.csv</p1>
+          <ul>      
+            <li style="color:white"><a href="https://www.eia.gov/dnav/ng/hist/n9130us2m.htm">https://www.eia.gov/dnav/ng/hist/n9130us2m.htm</a></li>
+          </ul> 
+          <p1 style="color:white">U.S._Natural_Gas_Imports.csv</p1>
+          <ul> 
+            <li style="color:white"><a href="https://www.eia.gov/dnav/ng/hist/n9100us2m.htm">https://www.eia.gov/dnav/ng/hist/n9100us2m.htm</a></li>
+          </ul>
+          <p1 style="color:white">U.S._Natural_Gas_Marketed_Production.csv</p1>
+          <ul> 
+            <li style="color:white"><a href="https://www.eia.gov/dnav/ng/hist/n9050us2m.htm">https://www.eia.gov/dnav/ng/hist/n9050us2m.htm</a></li>
+          </ul>
+          <p1 style="color:white">U.S._Natural_Gas_Total_Consumption.csv</p1>
+          <ul> 
+            <li style="color:white"><a href="https://www.eia.gov/dnav/ng/hist/n9140us2m.htm">https://www.eia.gov/dnav/ng/hist/n9140us2m.htm</a></li>
+          </ul>
+          <p1 style="color:white">U.S._Natural_Gas_Underground_Storage_Volume.csv</p1>
+          <ul> 
+            <li style="color:white"><a href="https://www.eia.gov/dnav/ng/hist/n5030us2m.htm">https://www.eia.gov/dnav/ng/hist/n5030us2m.htm</a></li>
+          </ul>
+
+          </div>
+        </div>       
+
+      <div class="col-md-12">
+        <div class="page-header"></div>
+          <h3 style="font-size:120%; color:white; text-align: center;">UC Berkeley Data Analytics Bootcamp * December 2021 - June 2022</h3>
+        </div>
       </div>
+      
     </div>
   </body>
 </html>
