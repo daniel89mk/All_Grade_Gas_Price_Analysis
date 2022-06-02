@@ -250,7 +250,6 @@
           <h2 style="color:white; text-align: center"><u>Time Series Model</u></h2>
            <h3 style="font-size:140%; color:white; text-align: center;"><mark>Autoregressive Integrated Moving Average (ARIMA) </mark></h3>
             <p3 style="font-size:120%; color:white;text-align: center">Statistical analysis model that uses time series data to either better understand the data set or to predict future trends. </p3>
-            <center><img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Resources/images/pro_con.PNG" style="width:800px;height:600px;"></center>
         </div> 
 
 
