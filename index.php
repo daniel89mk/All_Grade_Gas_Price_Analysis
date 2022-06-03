@@ -293,8 +293,15 @@
         </div>
 
         <div class="col-md-12">
-          <h2 style="color:white; text-align: center">The Best Model to predict future gas prices: ARIMA</h2>
-          <center><img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Resources/images/arima_prediction.PNG" style="width:700px;height:300px;"></center>  
+          <div class="row">
+            <div class="page-header" >
+              <h1 class="text-center" style="color:white;font-weight:bold">The BEST MODEL </h1>
+              <p1 style="color:white">to predict future gas prices: ARIMA</p1>
+            </div>
+          </div> 
+        <div class="col-md-12">
+          <center><img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Resources/images/arima_prediction.PNG" style="width:700px;height:300px;"></center> 
+         
 
 
       <div class="col-md-12">
@@ -303,6 +310,10 @@
             <h1 class="text-center" style="color:white;font-weight:bold">Summary</h1>
           </div>
         </div> 
+        <div class="col-md-12">
+          <p style="font-size:140%; color:white;">Because of what's going on with gas price increase nowadays, we wanted to perform an analysis on Gas Price and try to forecast future gas prices by using Machine Learning Models. We found out that ARIMA model could describe our future gas prices the best. Based on the graph below, we can expect our future gas price to go down for the rest of the year. </p>
+          <center><img src="https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Resources/images/2022_gas_price.PNG" style="width:700px;height:300px;"></center>
+          </div>
 
     
       <div class="col-md-12">
