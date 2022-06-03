@@ -296,7 +296,7 @@
           <div class="row">
             <div class="page-header" >
               <h1 class="text-center" style="color:white;font-weight:bold">The BEST MODEL </h1>
-              <p1 style="color:white">to predict future gas prices: ARIMA</p1>
+              <center><p1 style="font-size:150%; color:white; text-align: center">to predict future gas prices: ARIMA</p1></center>
             </div>
           </div> 
         <div class="col-md-12">
@@ -324,10 +324,13 @@
         </div>
       <div class="col-md-12">
         <div class="row">
-          <p1 style="color:white">California_Regular_All_Formulations_Retail_Gasoline_Prices.csv</p1>
-          <ul>
-            <li style="color:white"><a href="https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=pet&s=emm_epmr_pte_sca_dpg&f=m">https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=pet&s=emm_epmr_pte_sca_dpg&f=m</a></li>
-          </ul>
+        <style>
+          a:visited {
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+          }
+        </style>
           <p1 style="color:white">gas_prices_by_type.csv</p1>
           <ul>
             <li style="color:white"><a href="https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_nus_m.htm">https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_nus_m.htm</a></li>
