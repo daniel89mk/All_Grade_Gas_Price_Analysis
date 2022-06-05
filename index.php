@@ -49,9 +49,6 @@
           <img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/backhand-index-pointing-right_1f449.png" style="width:40px;height:40px;">
           <a class="btn btn-Dark" href="https://www.youtube.com/watch?v=uE14fkmyN1U" style="color:white">Our Presentation in Youtube!</a>
         <br></br>
-        <img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/backhand-index-pointing-right_1f449.png" style="width:40px;height:40px;">
-        <a class="btn btn-Dark" href="https://gas-price-analysis.herokuapp.com/" style="font-size:120%;color:white">OUR WEBSITE!! PLZ CHECKOUT!!</a>
-        <br></br>
           <p2 style="font-size:100%;color: white;">Python, SQL, Tableau, Web Scraping, and Machine Learning</p2>
       </div>
 
