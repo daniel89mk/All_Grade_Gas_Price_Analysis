@@ -40,15 +40,15 @@
         <p class="lead" style="font-weight:bold">by: THE TWO GASSY GIRLS</p>
         <hr class="my-4">
         <!-- <h style="color:white">LinkedIn Profile : </h> -->
-          <img src="https://image.similarpng.com/very-thumbnail/2020/07/Linkedin-logo-on-transparent-Background-PNG-.png" style="width:40px;height:40px;">
+        <img src="https://image.similarpng.com/very-thumbnail/2020/07/Linkedin-logo-on-transparent-Background-PNG-.png" style="width:40px;height:40px;">
           <a class="btn btn-Dark" href="https://www.linkedin.com/in/kimberly-kang-35450b75?trk=profile-badge" style="font-size:120%;color:white">Kimberly Kang</a>
           <a class="btn btn-Dark" href="https://www.linkedin.com/in/phoebemiao/" style="font-size:120%;color:white">Phoebe Miao</a>
-          <ul>
-            <img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/backhand-index-pointing-right_1f449.png" style="width:40px;height:40px;">
-            <li class="btn btn-Dark" href="https://docs.google.com/presentation/d/1XPCqnkOeaemkxZTu8BPxTlwjLJBWvVgrxnUrUHRo_xg/edit#slide=id.gc6f980f91_0_0" style="color:white">Our Presentation in Google Slides</li>
-            <img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/backhand-index-pointing-right_1f449.png" style="width:40px;height:40px;">
-            <li class="btn btn-Dark" href="https://www.youtube.com/watch?v=uE14fkmyN1U" style="color:white">Our Presentation in Youtube!</li>
-          </ul>
+          <br></br>
+          <img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/backhand-index-pointing-right_1f449.png" style="width:40px;height:40px;">
+          <a class="btn btn-Dark" href="https://docs.google.com/presentation/d/1XPCqnkOeaemkxZTu8BPxTlwjLJBWvVgrxnUrUHRo_xg/edit#slide=id.gc6f980f91_0_0" style="color:white">Our Presentation in Google Slides</a>
+          <img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/backhand-index-pointing-right_1f449.png" style="width:40px;height:40px;">
+          <a class="btn btn-Dark" href="https://www.youtube.com/watch?v=uE14fkmyN1U" style="color:white">Our Presentation in Youtube!</a>
+        <br></br>
           <p2 style="font-size:100%;color: white;">Python, SQL, Tableau, Web Scraping, and Machine Learning</p2>
       </div>
 
