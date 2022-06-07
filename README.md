@@ -77,10 +77,11 @@ Our Gas Price Analysis uses Python, Web Scraping, and Machine Learning to explor
 ### Data Preparation and Description of Models
 #### Datasets summary:
 
-  <img src='Resources/images/var_table.PNG' width=550, height=550>
+  <img src='https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Resources/images/var_table.PNG'>
+  
 #### Model Pros and Cons
 
-<img src='Resources/images/pro_con.PNG' width=700 height=500>
+<img src='https://raw.githubusercontent.com/FIRE-Phoebe/Gas_Price_analysis/main/Resources/images/pro_con.PNG'>
      
 
 #### Models Evaluation Metrics:
