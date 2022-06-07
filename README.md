@@ -94,9 +94,9 @@ Our Gas Price Analysis uses Python, Web Scraping, and Machine Learning to explor
 1. Models Evaluations: 
 
    Overall models we have applied, the ARIMA model has the highest R-squared score of 92%, which indicates this model is the best fit for our gasoline datasets. Comparing to the Linear Regression Models, ARIMA has the lowest mean squared error and the lowest median absolute error even though the mean absolute error for MRM2 has the lowest score and explained the variance score better. Besides, we have four attemps on Linear Regression Models with different factors. Among those attemps, MRM2 and MRM3 have better results but there is some trade-off. The OLS Regression results show the factors(not including dummies) for all attemps are not significant. 
-   
-<p align=center>
-  <img src='Resources/images/model_evaluation_new.PNG' width=700 height=200></p>
+
+![model_evaluation](Resources/images/model_evaluation_new.PNG)
+
 
 2. Model intercepts and General Coefficients:   
 
@@ -107,23 +107,24 @@ Our Gas Price Analysis uses Python, Web Scraping, and Machine Learning to explor
   - MRM3: intercept: 2.28     
   - MRM4: intercept: 2.81
 
-  <p align=center>
-  <img src='Resources/images/general_coef.PNG' width=800 height=300></p>
+![model_evaluation](Resources/images/general_coef.PNG)
+
   
   In addition, we dropped the dummy factors and had 3rd attempt of multiple linear-regression model. The most impacting factor to the all grades gas prices was **Year**, which was -11.63. Also, Inflation: 88.52%, Stock to GDP: 83.53%, and Working Population: 55.56% are the most impacting factors to the all grades gas prices. From the OLS regression result, it indicates regular gas prices and premium gas prices are significant. Moreover, while we added additional factors : consumers' types, we dropped a variable of all_consumers which is perfectly correlated with other factors. The most impacting factors are the total consumption: 8.93, Electic consumers: -6.5, and Industrial consumers: -2.79 that is correlated with the all grades gas prices. Also, the OLS regression result indicates that the p-value of residential consumers are significant. 
 
 3. Determine the best Machine Learning Model
 
     We compared three types of machine learning models: Multiple Linear Regression, ANN, and ARIMA. The best result is the ARIMA model, which has the smallest errors such as MAE, MSE, MAE*, that could be used to understand the patterns in gas prices better. Using sample data to train and test the model, we obtained the expected result. The trend in the future gas prices almost overlap with the actual gas prices. Since the ARIMA model results indicate all the lags we tested are significant with R-squared score of 92%, we can conclude that the ARIMA model is our best fit to forecast the future gas prices. As we could see the graph below:
-  
-<p align=center>
-<img src='Resources/images/arima_1.PNG' width=450 height=350></p>
+
+![model_evaluation](Resources/images/arima_1.PNG)
+
 
 
 ## Summary
 Because of what's going on with gas price increases nowadays, we wanted to perform an analysis on Gas Price and try to forecast future gas prices by using Machine Learning Models. We found out that ARIMA model would describe our future gas prices the best. Based on the graph below, we can expect our future gas prices to go down for the rest of the year.
-<p align=center>
-<img src='Resources/images/conclude.PNG' width=800 height=350></p> 
+
+![model_evaluation](Resources/images/conclude.PNG)
+
 
 ## Resources
 - California_Regular_All_Formulations_Retail_Gasoline_Prices.csv :
@@ -150,12 +151,14 @@ Because of what's going on with gas price increases nowadays, we wanted to perfo
 
 
 - Main page: 
- <p align=center>
-    <img src='Resources/images/website1.png' width=700 height=600></p>
+
+![model_evaluation](Resources/images/website1.png)
+
   
 - Webscriping details:
-<p align=center>
-  <img src='Resources/images/website2.png' width=700 height=600></p>
+
+![model_evaluation](Resources/images/website2.png)
+
   
   - MongoDB database(storage data)
   - Latest Gasoline Prices in 2022
